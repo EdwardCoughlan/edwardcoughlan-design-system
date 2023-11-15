@@ -1,5 +1,5 @@
 {
-  "name": "@edwardcoughlan/designsystem/components",
+  "name": "@edwardcoughlan/designsystem/react/components",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",

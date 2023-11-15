@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@edwardcoughlan/designsystem/components": [
+      "@edwardcoughlan/designsystem/react/components": [
         "packages/react/components/src/index.ts"
       ]
     }
