@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "build": "nx run-many --target=build --all=true",
+    "lint": "nx run-many --target=lint --all=true ",
     "storybook": "nx storybook edwardcoughlan-design-system-viewer",
     "storybook:build": "nx build-storybook edwardcoughlan-design-system-viewer"
   },
