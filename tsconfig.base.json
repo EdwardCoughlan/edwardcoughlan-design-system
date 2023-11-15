@@ -15,9 +15,6 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@edwardcoughlan/designsystem/react/card": [
-        "packages/react/card/src/index.ts"
-      ],
       "@edwardcoughlan/designsystems/react/typography": [
         "packages/react/typography/src/index.ts"
       ]
