@@ -6,6 +6,7 @@
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
       "rules": {
+        "import/no-extraneous-dependencies": ["error"],
         "@nx/enforce-module-boundaries": [
           "error",
           {
@@ -19,6 +20,12 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "files": ["*.spec.ts", "*.spec.tsx", "*.stories.*","vite.config.ts"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
       }
     },
     {
