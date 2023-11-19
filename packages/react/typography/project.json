@@ -1,7 +1,7 @@
 {
-  "name": "components",
+  "name": "typography",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/react/components/src",
+  "sourceRoot": "packages/react/typography/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -9,7 +9,7 @@
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/react/components/**/*.{ts,tsx,js,jsx}"]
+        "lintFilePatterns": ["packages/react/typography/**/*.{ts,tsx,js,jsx}"]
       }
     },
     "build": {
@@ -17,7 +17,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/packages/react/components"
+        "outputPath": "dist/packages/react/typography"
       },
       "configurations": {
         "development": {
@@ -33,7 +33,7 @@
       "outputs": ["{options.reportsDirectory}"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "../../../coverage/packages/react/components"
+        "reportsDirectory": "../../../coverage/packages/react/typography"
       }
     }
   }
