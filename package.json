@@ -8,6 +8,9 @@
     "storybook": "nx storybook edwardcoughlan-design-system-viewer",
     "storybook:build": "nx build-storybook edwardcoughlan-design-system-viewer"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.2",
