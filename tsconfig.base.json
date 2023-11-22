@@ -15,8 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@edwardcoughlan/designsystem/react/components": [
-        "packages/react/components/src/index.ts"
+      "@edwardcoughlan/designsystem/react/button": [
+        "packages/react/button/src/index.ts"
+      ],
+      "@edwardcoughlan/designsystem/react/typography": [
+        "packages/react/typography/src/index.ts"
       ]
     }
   },

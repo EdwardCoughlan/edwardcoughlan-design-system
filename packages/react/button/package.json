@@ -1,0 +1,17 @@
+{
+  "name": "@edwardcoughlan/designsystem/react/button",
+  "version": "0.0.1",
+  "public": "true",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
